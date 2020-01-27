@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe E:\Programas\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\DC_05\Desktop\cmder\bin;C:\Users\DC_05\Desktop\cmder\vendor\bin;C:\Users\DC_05\Desktop\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\DC_05\Desktop\cmder\vendor\conemu-maximus5;C:\Users\DC_05\Desktop\cmder\vendor\conemu-maximus5\ConEmu;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\Programas\Yarn\bin\;E:\Programas\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_211\bin;"C:\Users\DC_05\AppData\Local\Android\Sdk\platform-tools;";"C:\Users\DC_05\AppData\Local\Android\Sdk\tools;";C:\Program Files\Amazon\AWSCLI\bin\;C:\Users\DC_05\AppData\Local\Microsoft\WindowsApps;E:\Programas\Microsoft VS Code\bin;C:\Users\DC_05\AppData\Local\Yarn\bin;C:\Users\DC_05\AppData\Roaming\npm;E:\Programas\Git\cmd;E:\Programas\Git\mingw64\bin;E:\Programas\Git\usr\bin;C:\Users\DC_05\Desktop\cmder
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  12.2.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: E:\Fonts\speed-word-back\package.json: Unexpected token } in JSON at position 287
+      at JSON.parse (<anonymous>)
+      at E:\Programas\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (E:\Programas\Yarn\lib\cli.js:304:30)
+      at E:\Programas\Yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+      "name": "backend",
+      "version": "1.0.0",
+      "main": "index.js",
+      "license": "MIT",
+      "scripts": {
+        "dev": "nodemon src/index.js"
+      },
+      "dependencies": {
+        "axios": "^0.19.1",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "mongoose": "^5.8.9",
+      },
+      "devDependencies": {
+        "nodemon": "^2.0.2"
+      }
+    }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
