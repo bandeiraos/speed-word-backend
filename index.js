@@ -7,10 +7,10 @@ const http = require("http");
 const app = express();
 const server = http.Server(app);
 
-mongoose.connect(
-  "mongodb+srv://bandeiraos:speed-bobica@cluster0-jnksz.mongodb.net/speed-bobica?retryWrites=true&w=majority",
-  { useNewUrlParser: true, useUnifiedTopology: true }
-);
+mongoose.connect(process.env.MONGO_URL, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+});
 
 app.use(cors());
 app.use(express.json());
